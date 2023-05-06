@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-par {
+  height: 100px;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}

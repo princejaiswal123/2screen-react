@@ -1,0 +1,61 @@
+.form {
+  border-radius: 10px;
+  width: 40%;
+  height: 350px;
+  margin: auto;
+  position: relative;
+  background-color: white;
+  position: absolute;
+  left: 30%;
+  top: 35%;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.cancel-btn {
+  border: none;
+  font-size: 20px;
+  color: red;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: white;
+}
+.submit {
+  margin-top: 20px;
+  border: none;
+  padding: 10px 30px;
+  background-color: rgba(46, 46, 155, 0.66);
+  color: white;
+  border-radius: 8px;
+}
+.form-cont {
+  margin-top: 50px;
+  width: 80%;
+  margin: auto;
+}
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-sub-cont {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+[type="number"] {
+  outline: 0;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 80%;
+}
+label {
+  margin-right: 20px;
+}
+input[type="radio"] {
+  margin-top: 10px;
+  margin-right: 10px;
+}
